@@ -1,0 +1,19 @@
+{
+  "name": "登录流程",
+  "url": "https://dsep-portal-dev.minmetals.com.cn/portal/signin",
+  "testCases": [
+    {
+      "id": "TC_LOGIN_001",
+      "name": "正确账号密码登录成功",
+      "steps": [
+        "在用户名输入框中填入 cisdi_sy4",
+        "在密码输入框中填入 Vf8DprZ!Pd",
+        "识别验证码图片并填入验证码输入框",
+        "勾选用户协议复选框",
+        "点击登录按钮"
+      ],
+      "expected": "页面跳转到门户首页，URL :https://dsep-portal-dev.minmetals.com.cn/portal",
+      "useState": false
+    }
+  ]
+}

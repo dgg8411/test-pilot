@@ -1,0 +1,16 @@
+{
+  "name": "采购资格预审列表查询",
+  "url": "https://dsep-portal-dev.minmetals.com.cn/portal/mi-sub/micro/mip-purch-tender_minmetals-mip-app/purchase_tender/PurchaserPreQualDoc/1/#/purchaser/prequalification/list",
+  "testCases": [
+    {
+      "id": "TC_PREQUAL_001",
+      "name": "按工程分类查询资格预审列表",
+      "steps": [
+        "选择采购业务分类为工程",
+        "点击查询按钮"
+      ],
+      "expected": "数据列表刷新，列表中的采购业务分类列都为工程",
+      "useState": true
+    }
+  ]
+}

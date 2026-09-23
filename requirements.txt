@@ -1,0 +1,7 @@
+langchain>=1.4.0
+langchain-openai>=1.6.0
+langgraph>=1.2.11
+langgraph-prebuilt>=1.1.0
+prompt_toolkit>=3.0.53
+python-dotenv>=1.2.3
+pydantic>=2.13.5
